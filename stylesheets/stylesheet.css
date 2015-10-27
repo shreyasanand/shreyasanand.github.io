@@ -130,11 +130,10 @@ dt {
 }
 
 ul li {
-  list-style: none;
+  list-style: square;
 }
 
 ul li:before {
-  content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
   color: #b5e853;
@@ -244,4 +243,53 @@ a {
 
 .cf {
   zoom:1;
+}
+
+/* Social icons */
+.socialicons {
+    float: right;
+    margin-top: 0px
+}
+
+.socialicons li {
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    margin-right: 2px;
+    list-style: none !important;
+}
+
+.socialicons li a {
+    font-family: 'icomoon';
+    font-size: 16px;
+    display: block;
+    padding: 6px 8px;
+    background-color: #222;
+    color: #FFF;
+    text-decoration: none;
+    list-style: none !important;
+}
+
+.socialicons li a:hover {
+    color: /*mainColor*/
+#b5e853
+}
+
+.social-icons li:last-child {
+    margin-right: 0
+    list-style: none !important;
+}
+
+.socialicons .socials-text {
+    padding: 9px;
+    height: 17px;
+    margin-top: 21px;
+    background-color: #222;
+    color: #FFF
+}
+
+.utalink {
+    color: #63c0f5;
+    text-decoration: none;
 }
