@@ -293,3 +293,10 @@ a {
     color: #63c0f5;
     text-decoration: none;
 }
+
+/* Font face */
+@font-face {
+    font-family: 'icomoon';
+    src: url(../stylesheets/fonts/icomoon/icomoon.eot);
+    src: url(../stylesheets/fonts/icomoon/icomoon.eot?#iefix) format("embedded-opentype"),url(../stylesheets/fonts/icomoon/icomoon.svg#icomoon)       format("svg"),url(../stylesheets/stylesheets/fonts/icomoon/icomoon.woff) format("woff"),url(../stylesheets/fonts/icomoon/icomoon.ttf) format("truetype")
+}
